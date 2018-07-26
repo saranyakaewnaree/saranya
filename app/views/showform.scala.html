@@ -1,0 +1,21 @@
+@(showproduct:addproduct)
+<h1>ข้อมูลสินค้า</h1>
+<table class="table">
+    <tr>
+        <th>รหัสสินค้า</th>
+        <td>@showproduct.getId</td>
+    </tr>
+    <tr>
+        <th>ชื่อสินค้า</th>
+        <td>@showproduct.getName</td>
+    </tr>
+    <tr>
+        <th>ราคาสินค้า</th>
+        <td>@showproduct.getPrice</td>
+    </tr>
+    <tr>
+        <th>จำนวนสินค้า</th>
+        <td>@showproduct.getAmount</td>
+    </tr>
+
+</table>
